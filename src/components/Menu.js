@@ -1,3 +1,4 @@
+
 import { pizzaList } from '../data/data.js'
 import PizzaItem from './PizzaItem.js'
 import '../styles/Menu.css'
@@ -41,3 +42,4 @@ function Menu({ cart, updateCart }) {
 }
 
 export default Menu
+
