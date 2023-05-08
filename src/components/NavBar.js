@@ -5,11 +5,12 @@ import '../styles/NavBar.css'
 function NavBar() {
   return (
     <nav className='navbar'>
+      <img></img>
       <div  className='flex'>
-        <div><Link to="/">Home</Link></div>
-        <div><Link to="/menu">Menu</Link></div>
-        <div><Link to="/about">About</Link></div>
-        <div><Link to="/contact">Contact</Link></div>
+        <Link to="/" className='flex-child'>Home</Link>
+        <Link to="/menu" className='flex-child'>Menu</Link>
+        <Link to="/about" className='flex-child'>About</Link>
+        <Link to="/contact" className='flex-child'>Contact</Link>
       </div>
     </nav>
   );
