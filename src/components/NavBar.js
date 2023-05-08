@@ -8,10 +8,13 @@ function NavBar() {
     <nav className='navbar'>
       <img src={logo}></img>
       <div  className='flex'>
-        <Link to="/" className='flex-child'>Home</Link>
-        <Link to="/menu" className='flex-child'>Menu</Link>
-        <Link to="/about" className='flex-child'>About</Link>
         <Link to="/contact" className='flex-child'>Contact</Link>
+        <Link to="/about" className='flex-child'>About</Link>
+        <Link to="/menu" className='flex-child'>Menu</Link>
+        <Link to="/" className='flex-child'>Home</Link>
+        
+        
+        
       </div>
     </nav>
   );
