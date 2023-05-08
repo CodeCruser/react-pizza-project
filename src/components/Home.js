@@ -1,6 +1,9 @@
-function Homepage (){
+function Home() {
     return (
-        <h1>This is the main page</h1>
-    )
-}
-export default Homepage;
+      <div className="Home">
+        <h1>Home</h1>
+      </div>
+    );
+  }
+  
+  export default Home;

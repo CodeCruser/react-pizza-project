@@ -1,6 +1,9 @@
-function About () {
+function About() {
     return (
-        <p>ABout me please</p>
-    )
-}
-export default About;
+      <div className="About">
+        <h1>PAGE ABOUT</h1>
+      </div>
+    );
+  }
+  
+  export default About;

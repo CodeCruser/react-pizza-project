@@ -1,6 +1,9 @@
-function Contact () {
+function Contact() {
     return (
-        <p>email me please</p>
-    )
-}
-export default Contact;
+      <div className="Contact">
+        <h1>Page Contact</h1>
+      </div>
+    );
+  }
+  
+  export default Contact;

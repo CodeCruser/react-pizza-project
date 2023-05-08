@@ -1,24 +1,27 @@
 import './styles/App.css';
-import {Routes , Route, Link} from 'react-router-dom'
+import React, { Component } from 'react';
+import Home from './components/Home';
+import Menu from './components/Menu';
+import { Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Contact from './components/Contact';
+import NavBar from './components/NavBar';
 
-function App() {
-  return (
-    <div className="App">
-      <nav>
-        <Link to="/" >Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-<h1>hey</h1>
-      </nav>
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/contact" element={<Contact />}/>
-        <Route path="/about" element={<About />}/>
-      </Routes>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <NavBar/>
+        <Routes>
+            <Route path="/" element={<Home/>} />
+            <Route path="/menu" element={<Menu/>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/contact" element={<Contact/>} />
+        </Routes>
+        
+      </div>
+    );
+  }
 }
 
 export default App;
