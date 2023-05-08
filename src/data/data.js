@@ -1,9 +1,9 @@
-import p1g1 from '../Img/download.jpg';
-import p2g2 from '../Img/photo-1513104890138-7c749659a591.jpg';
-import p3g3 from '../Img/pizza-3007395__480.jpg';
-import p4g4 from '../Img/pizza-3010062__340.jpg';
-import p5g5 from '../Img/pizza-pepperoni-cheese-salami-vegetables-58914487.jpg';
-import p6g6 from '../Img/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg';
+import p1g1 from '../img/download.jpg';
+import p2g2 from '../img/photo-1513104890138-7c749659a591.jpg';
+import p3g3 from '../img/pizza-3007395__480.jpg';
+import p4g4 from '../img/pizza-3010062__340.jpg';
+import p5g5 from '../img/pizza-pepperoni-cheese-salami-vegetables-58914487.jpg';
+import p6g6 from '../img/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg';
 
 export const pizzaList = [
     {
