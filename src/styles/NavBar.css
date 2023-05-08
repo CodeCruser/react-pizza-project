@@ -1,0 +1,20 @@
+nav{
+    background-color: black;
+    height: 100px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    justify-content:flex-end;
+    align-items: center;
+
+}
+.navbar div a {
+    
+    color: #ffffff; /* Couleur noire */
+    font-weight: bold; /* Texte en gras */
+    text-decoration: none; /* Pas de soulignement */
+  }
+  
