@@ -13,18 +13,20 @@ nav{
     flex-direction: row-reverse;
     justify-content: center;
     margin-left: 60%;
-    
-
 }
 .flex-child{
     margin: auto 10px;
     align-items: center;
     
-    
+}
+
+img{
+    height: 80%;
+    margin-top: 9px;
+    margin-left: 30px;
 }
 
 .navbar div a {
-    
     color: #ffffff; /* Couleur noire */
     font-weight: bold; /* Texte en gras */
     text-decoration: none; /* Pas de soulignement */
